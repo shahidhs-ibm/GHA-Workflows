@@ -7,7 +7,7 @@ jobs:
   build:
     runs-on:
       - self-hosted
-      - ubuntu-latest-ppc64le
+      - ubuntu-20.04-ppc64le
 
     steps:
       - uses: actions/checkout@v2
